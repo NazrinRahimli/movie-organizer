@@ -15,7 +15,7 @@ export function fetchMovieQuery(searchLine) {
             dispatch(findMovies(data.Search));
         })
         .catch((error) => {
-            alert('Ошибка запроса');
+            alert('404 error');
         }); 
     }
 }
